@@ -1,0 +1,181 @@
+body
+{
+    background-color: #F6F7F9;
+}
+
+h1,h2,h3
+{
+    
+    text-align: center;
+    font-size: 15px;
+    color: #474A51;
+}
+
+h3
+{
+    position: absolute;
+    top: 50px;
+    left: 570px;
+}
+
+.selo
+{
+    position: absolute;
+    top: -1px;
+    left: 1px;
+    
+}
+.box
+{
+    background-color:#DCDCDC;
+    width: 1294px;
+    height: 125px;
+    position: absolute;
+    top: -16px;
+    left: 72px;
+}
+
+.rodapé
+{
+    background: #CFB53B;
+    position: absolute;
+    width: 1366px;
+    left: 0;
+    bottom: -0px;
+}
+
+.box_rodapé
+{
+    background: #CFB53B;
+    position: absolute;
+    width: 1366px;
+    height: 10px;
+    left: 0;
+    bottom: -0px;
+}
+
+.menu ul li
+{
+    font-family: 'Tangerine', serif;
+    background-color:#DCDCDC;
+    color: #CFB53B;
+    float: left;
+    width: 250px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    font-size: 35px;
+    z-index: 1;
+}
+
+.button
+{
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+
+.contato
+{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    font-size: 30px;
+}
+
+.Whatsapp
+{
+    background-color:#DCDCDC;
+    font-family: 'Tangerine', serif;
+    font-size: 35px;
+    color: #CFB53B;
+    float: left;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+}
+
+a
+{
+    text-decoration: none;
+    color: #CFB53B;
+}
+a:link{
+    color: #CFB53B;
+}
+
+a:visited{
+    color: #CFB53B;
+}
+
+a:hover{
+    color: #CFB53B;
+}
+
+a:active{
+    color: #CFB53B;
+}
+
+.aviso
+{
+    font-family: 'Tangerine', serif;
+    font-size: 25px;
+    background: #CFB53B;
+    color: #474A51;
+    font-size: 30px;
+    text-shadow: 4px 4px 4px #aaa;
+    position: absolute;
+    top: 110px;
+}
+
+.aviso
+{
+    position: absolute;
+    top: 109px;
+    left: 0px;
+}
+
+.slider
+{
+    background: url(./img/santuario.jpeg);
+    animation: slide 20s infinite;
+    border:15px solid yellow;
+    height: 382px;
+    width: 500px;
+    position: absolute;
+    bottom: 87px;
+    right: 450px;
+    border-style:solid;   
+    border-color:#D5D5D5 #D5D5D5 #D5D5D5 #D5D5D5;
+       
+}
+
+    @keyframes slide{
+        25%{
+            background-image: url(./img/mdf.jpeg);
+               
+        }
+        50%{
+            background-image: url(./img/personalizado.jpeg);
+             
+        }
+        75%{
+            background-image: url(./img/vidro.jpeg);
+
+        }
+        100%{
+            background-image: url(./img/santuario13.jpeg);
+           
+        }   
+    }
+
+    #Voltar
+{
+    font-family: 'Tangerine', serif;
+    position: absolute;
+    bottom: 0px;
+    color: #474A51;
+    font-size:35px;
+}
